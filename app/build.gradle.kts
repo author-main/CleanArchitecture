@@ -41,6 +41,8 @@ android {
 
 dependencies {
     implementation(libs.dagger)
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter)
     kapt(libs.dagger.compiler)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
