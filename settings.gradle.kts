@@ -21,4 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "CleanArchitecture"
 include(":app")
- 
+include(":data")
+include(":features")
+include(":features:signin")
+include(":features:signup")
+include(":features:restore")
