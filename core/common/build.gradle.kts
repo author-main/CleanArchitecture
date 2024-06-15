@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.app.cleanarchitecture.signup"
+    namespace = "com.app.cleanarchitecture.common"
     compileSdk = 34
 
     defaultConfig {
@@ -37,7 +37,6 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation(project(":core:common"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
